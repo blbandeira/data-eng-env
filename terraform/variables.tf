@@ -29,7 +29,7 @@ variable "repo_name" {
 }
 
 variable "my_ip" {
-  description = "personal public ipv4"
+  description = "personal ip"
   type = string
-  default = "177.60.93.104/32"
+  default = "0.0.0.0/0"
 }
