@@ -10,14 +10,20 @@ variable "instance_type" {
   default     = "m4.xlarge"
 }
 
-variable "repo_url" {
-  description = "repo url to clone"
-  type        = string
-  default     = "https://github.com/blbandeira/data-eng-env"
-}
-
 variable "alert_email" {
   description = "budget alert email"
   type        = string
   default     = "brunolbandeira@gmail.com"
+}
+
+variable "repo_url" {
+  description = "git repo url for cloning"
+  type = string
+  default = "https://github.com/blbandeira/data-eng-env.git"
+}
+
+variable "repo_name" {
+  description = "git repo url for cloning"
+  type = string
+  default = "data-eng-env"
 }
