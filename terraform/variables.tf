@@ -27,3 +27,9 @@ variable "repo_name" {
   type = string
   default = "data-eng-env"
 }
+
+variable "my_ip" {
+  description = "personal public ipv4"
+  type = string
+  default = "177.60.93.104/32"
+}
